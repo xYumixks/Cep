@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Busca de CEP</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="card">
+    <h1>Buscar CEP</h1>
+
+    <form id="form-cep">
+      <input
+        type="text"
+        id="cep"
+        placeholder="Digite o CEP (ex: 01001000)"
+        maxlength="9"
+        inputmode="numeric"
+        autocomplete="off"
+      >
+      <button type="submit" id="btn-buscar">Buscar</button>
+    </form>
+
+    <div id="resultado"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
